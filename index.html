@@ -1,21 +1,112 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Igor's Semenov CV</title>
+	  <meta charset="utf-8">
+	  <link rel="stylesheet" href="./style.css">
+	  <title>Igor's Semenov CV</title>
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>Хедр</header>
-    <nav>Меню :: Я</nav>
-    <main>
-      <div>
-        <h1>Igor Semenov</h1>
-        <p>HTML/JS, UX/UI designer</p>
-      </div>
-    </main>
-    <footer>
-      <a href="https://rs.school/js/" target="_blank"><img src="https://garikmsk.github.io/rsschool-cv/images/rs_school_js.svg" alt="RS SCHOOL"></a>
-    </footer>
+  <div class="wrapper">
+		<header>
+		  <p><img src="./assets/images/profile-photo.jpg" class="profilePhoto" alt="My photo"/></p>
+		  <h1>Igor Semenov</h1>
+			<h4><span class="cvWord">CV</span> as HTML/JS, UX/UI designer</h4>
+      </header>
+	  <nav>
+		  <ul>
+			  <li><a href="#contacts">Contacts</a></li>
+			  <li><a href="#aboutMe">About me</a></li>
+			  <li><a href="#keyKnowledge">Key knowledge</a></li>
+			  <li><a href="#works">Works</a></li>
+			  <li><a href="#education">Education</a></li>
+		  </ul>
+	  </nav>
+	<main>
+	  <section id="contacts">
+		  <div>
+				<h2>Contacts</h2>
+				  <ul>
+					  <li>Email: igor@nbma.ru</li>
+					  <li>Phone/whatsapp: +79265328979</li>
+					  <li>Homesite: <a href="https://garikmsk.github.io/rsschool-cv/kenler.ru" target="_blank">http://kenler.ru</a></li>
+					  <li>Instagram: <a href="https://garikmsk.github.io/rsschool-cv/instagram.com/igor_semenov_msk" target="_blank">igor_semenov_msk</a></li>
+				</ul>
+		</div>
+	  </section>
+		  <section id="aboutMe">
+			  <div>
+				<h2>About me</h2>
+				<p>Expirience: did 40+ websites and e-shops </p>
+				  <ul>
+					  <li>I&rsquo;ve been doing websites since 2004. Also I did a lot of Digital marketing campaings for my clients.</li>
+					  <li>I&rsquo;ve opened my own online shop in 2011, which became world famous and highly ranked by stylist arond the world.</li>
+					  <li>Recently, I&rsquo;ve found myself as a good public relations specialist</li>
+				</ul>
+			  </div>
+			  <div>
+				<h3>My interests</h3>
+				<p>Travel, Foreign culture, Filmmaking</p>
+			  </div>
+		</section>
+		<section id="keyKnowledge">
+			<div>
+				<h2>Key knowledge</h2>
+				<ul>
+				  <li>HTML/CSS/Bootstrap + Bootstrap Studio</li>
+				  <li>UI/UX</li>
+				  <li>PHP</li>
+				  <li>Bitrix</li>
+				  <li>Dreamweaver + Notepad++</li>
+				  <li>Photoshop</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Code example</h3>
+				<div class="codeExample">
+					<code>if ($USER-&gt;IsAdmin()):<br>
+							&nbsp;&nbsp;foreach ($arResult[&quot;PROPERTIES&quot;][&quot;GIF&quot;][&quot;VALUE&quot;] as $value) {<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;$arFile = CFile::GetFileArray($value);<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;if($arFile):<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;echo =$arFile[&quot;SRC&quot;];<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;endif;<br>
+							&nbsp;&nbsp;}<br>
+						endif;</code>
+				</div>
+			</div>
+		</section>
+		<section id="works">
+			  <div>
+				<h2>Works</h2>
+				<ul>
+				  <li><a href="https://supercombs.ru" target="_blank">https://supercombs.ru</a></li>
+				  <li><a href="https://salonsdirect.ru" target="_blank">https://salonsdirect.ru</a></li>
+				  <li><a href="https://stropu.ru" target="_blank">https://stropu.ru</a></li>
+				</ul>
+			  </div>
+		</section>
+		<section id="language">
+			<div>
+				<h3>I speak English</h3>
+				<p>My english is quite fluent IELTS 6-7, german - A2, Japanese A1</p>
+			</div>
+		</section>
+		<section id="education">
+			<div>
+				<h2>Education</h2>
+				<p>Engeneer, chemical technology of silicates at the Moscow City Institute of Public Utilities and Construction</p>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div>
+			<p class="copyright">Page created in 2023. </p>
+			<p class="copyright">My GitHub: <a href="https://github.com/GarikMSK/">GarikMSK</a></p>
+			<p class="rsLogo">Inspired by <a href="https://rs.school/js/" target="_blank"><img src="https://garikmsk.github.io/rsschool-cv/images/rs_school_js.svg" alt="RS SCHOOL"></a></p>
+		</div>
+	</footer>
+	</div>
   </body>
 </html>

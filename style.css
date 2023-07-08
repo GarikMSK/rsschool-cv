@@ -1,6 +1,119 @@
-.body 
-{
-  margin:0px; 
-  padding:0px; 
-  font-family:Verdana;
+@media (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+
+	margin:0px;
+	padding:0px;
+	font-family:"Comfortaa";
+	background-color:cornflowerblue;
+	color: #FFFFFF;
+	font-size: 1.2rem;
+	align-items: center;
+}
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+h3 {
+	color:#FFE000;
+}
+a {
+	color: #E9F8FC;
+}
+a:hover {
+	color: #FFEDAB;
+}
+header {
+    align-items: center;
+	margin: 16px 0;
+	text-align: center;
+}
+
+header h4 {
+	font-size: 1rem;
+	padding: 0;
+	margin: -16px 0 0 0;
+}
+.cvWord {
+	color:#FFE000;
+	border: 1px dashed  #FFE000; 
+	padding: 2px;
+}
+nav{
+	border-bottom: 6px solid #F2CE59;
+	padding: 16px 20px;
+	text-align:center; 
+}
+
+nav ul {
+	margin: -8px 0;
+	padding: 0;
+	font-size: 1rem;
+}
+
+nav ul li {
+	margin: 16px 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a {
+	padding: 8px; 
+	border: 1px solid #FDFDFD; 
+	border-radius: 3px;
+	margin: 3px;
+	transition: .8s;
+}
+nav ul li a:hover {
+	border: 1px solid #FFEDAB; 
+	transition: .8s;
+}
+header img {
+	margin: 0 auto;
+}
+
+.profilePhoto {
+	border-radius: 50%;
+	border: 3px solid #ffffff;
+    width: 144px;
+    height: 144px;
+}
+
+section {
+	border: 3px solid #F2CE59;
+	border-radius: 5px;
+	margin: 16px auto;
+	padding: 16px 20px;
+	line-height: 130%;
+}
+
+footer {
+	border-top: 6px solid #F2CE59;
+	padding: 16px 20px;
+	text-align:center; 
+}
+
+footer p.rsLogo {
+	font-size:1rem;
+}
+
+footer p.rsLogo img {
+	width: 36px;
+}
+
+.codeExample {
+	padding: 8px 16px;
+	background: #E5F7F6; font-size: 0.8rem;
+	color:#000000;
 }
